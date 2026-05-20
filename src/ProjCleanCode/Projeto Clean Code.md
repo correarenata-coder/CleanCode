@@ -62,11 +62,11 @@ public class calc1
 ___
 
 #  📚 Fontes de Estudo Possibilidades de mudança:
-1- Nome da classe  "calc1 e do método "calculos" não são descritivos e não seguem a notação **PascalCase**. Poderíamos renomear a classe para algo como "CalculadoraDescontos" e o método para "CalcularValorFinal".
-2- O método "calculos" tem muitos parâmetros e uma lógica complexa. Poderíamos dividir a lógica em métodos menores, cada um responsável por um tipo de cálculo específico.
-3- O uso de números mágicos (como 1,2,3, 4, 0.1m, 0.7m, etc.) torna o código difícil de entender. Poderíamos usar constantes para dar nomes significativos a esses valores.
-4- O método "calculos" tem uma estrutura de controle complexa (if-else) que pode ser difícil de seguir. Poderíamos usar um switch-case ou um dicionário para mapear os tipos de cálculo a funções específicas.
-5- Falta significado nos nomes da classe, métodos e variáveis (calc1, calculos, tip, anos, res, desc). Poderíamos usar nomes mais descritivos para melhorar a legibilidade do código.
+1. Nome da classe  "calc1 e do método "calculos" não são descritivos e não seguem a notação **PascalCase**. Poderíamos renomear a classe para algo como "CalculadoraDescontos" e o método para "CalcularValorFinal".
+2. O método "calculos" tem muitos parâmetros e uma lógica complexa. Poderíamos dividir a lógica em métodos menores, cada um responsável por um tipo de cálculo específico.
+3. O uso de números mágicos (como 1,2,3, 4, 0.1m, 0.7m, etc.) torna o código difícil de entender. Poderíamos usar constantes para dar nomes significativos a esses valores.
+4. O método "calculos" tem uma estrutura de controle complexa (if-else) que pode ser difícil de seguir. Poderíamos usar um switch-case ou um dicionário para mapear os tipos de cálculo a funções específicas.
+5. Falta significado nos nomes da classe, métodos e variáveis (calc1, calculos, tip, anos, res, desc). Poderíamos usar nomes mais descritivos para melhorar a legibilidade do código.
 
 
 # 📚 Fontes de Estudo
