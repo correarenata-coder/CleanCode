@@ -16,8 +16,14 @@
 rad.json
 #Translation Base-file
 *.g.xlf
-#License-files
-*.bclicense
+#License-file
 *.flf
 #Test results file
 TestResults.xml
+
+/.vs/slnx.sqlite
+*.json
+/src/.vs
+
+[Bb]in/
+[Oo]bj/
