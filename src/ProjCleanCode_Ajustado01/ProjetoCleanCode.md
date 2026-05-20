@@ -1,10 +1,10 @@
-﻿# Clean Code
+﻿# 🧹 Clean Code
 
 ___
 
-# Alguns itens para ajustar:
+#  🏷️ Alguns itens para ajustar:
 
-1. Identificadores : É um nome atribuído a variáveis, funções, classes, etc. Eles devem ser claros e descritivos para facilitar a compreensão do código.
+1. **Identificadores** : É um nome atribuído a variáveis, funções, classes, etc. Eles devem ser claros e descritivos para facilitar a compreensão do código.
 Exemplo: Cliente, nomeCliente, valorTotal, CalcularTotalPedido(), codigoDoProduto
 Evitar utilizar : a, s, i , val, temp, x, data, calc, etc
 Evitar usa identificadores com o mesmo nome alternando entre maiúsculas e minúsculas (ex: cliente, Cliente, CLIENTE) para evitar confusão.
@@ -23,7 +23,7 @@ Usar todas as letras maiúsculas e separar as palavras com sublinhados (ex: TAXA
 Sublinhado (_):
 Usado no início do nome de variáveis privadas em algumas convenções de codificação (ex: _nomeCliente) para indicar que são membros privados da classe.
 
-# Resumo
+# 📋 Resumo das Convenções
 | Elemento      | Convenção                                                                 | Exemplo |
 |---------------|----------------------------------------------------------------------------|----------|
 | **Classe**    | Substantivos descritivos em **PascalCase**, representando o que a classe é ou faz | `CalculadoraDeDesconto` |
@@ -32,16 +32,45 @@ Usado no início do nome de variáveis privadas em algumas convenções de codif
 | **Parâmetros**| Substantivos descritivos em **camelCase**, indicando o que o parâmetro representa | `tempoDaContaEmAnos` |
 | **Constantes**| Substantivos descritivos em letras maiúsculas, separados por `_`, representando valores fixos e imutáveis | `TAXA_DE_DESCONTO` |
 
-# Aplicação no exemplo
+## Classe
 
-Classe calc1 -> CalculadoraDeDesconto
-Método calculos -> CalcularDesconto
-Parametros:
-val -> precoDoProduto
-tip -> statusDaConta
-anos -> tempoDaContaEmAnos
+| Antes | Depois |
+|---|---|
+| `calc1` | `CalculadoraDeDesconto` |
 
-Variáveis:
-res -> precoDepoisDoDesconto
-desc -> pencentualDoDescontoPorFidelidade
-			
+---
+
+## Método
+
+| Antes | Depois |
+|---|---|
+| `calculos` | `CalcularDesconto` |
+
+---
+## Parâmetros
+
+| Antes | Depois |
+|---|---|
+| `val` | `precoDoProduto` |
+| `tip` | `statusDaConta` |
+| `anos` | `tempoDaContaEmAnos` |
+
+---## Variáveis
+
+| Antes | Depois |
+|---|---|
+| `res` | `precoDepoisDoDesconto` |
+| `desc` | `percentualDeDescontoPorFidelidade` |
+
+---			
+
+# ✅ Resultado
+
+Com nomes melhores, o código fica:
+
+- 📖 Mais legível
+- 🧠 Mais fácil de entender
+- 🔧 Mais simples de manter
+- 👥 Melhor para trabalhar em equipe
+
+O código deve explicar sozinho o que está acontecendo.
