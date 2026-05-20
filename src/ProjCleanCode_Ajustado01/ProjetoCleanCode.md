@@ -4,12 +4,19 @@ ___
 
 #  🏷️ Alguns itens para ajustar:
 
-1. **Identificadores** : É um nome atribuído a variáveis, funções, classes, etc. Eles devem ser claros e descritivos para facilitar a compreensão do código.
-Exemplo: Cliente, nomeCliente, valorTotal, CalcularTotalPedido(), codigoDoProduto
-Evitar utilizar : a, s, i , val, temp, x, data, calc, etc
+## **Identificadores** 
+É um nome atribuído a variáveis, funções, classes, etc. Eles devem ser claros e descritivos para facilitar a compreensão do código.
+
+### ✅ Boas práticas
+Utilize nomes que representem claramente o propósito do elemento. Exemplo: Cliente, nomeCliente, valorTotal, CalcularTotalPedido(), codigoDoProduto
+
+### ❌ Evite nomes genéricos ou sem significado
+Exemplo : a, s, i , val, temp, x, data, calc, etc
+
+### ⚠️ Atenção com diferenças apenas de maiúsculas/minúsculas
 Evitar usa identificadores com o mesmo nome alternando entre maiúsculas e minúsculas (ex: cliente, Cliente, CLIENTE) para evitar confusão.
 
-Regras gerais para identificadores:	
+# 📌 Regras Gerais para Identificadores	
 - Use nomes significativos e descritivos.
 - Use a notação PascalCase para classes e métodos (ex: Cliente, CalcularTotalPedido).
 - Use a notação camelCase para variáveis e parâmetros (ex: nomeCliente, valorTotal).
@@ -17,11 +24,12 @@ Regras gerais para identificadores:
 - Devem começar com uma letra ou um sublinhado (_), e não podem conter espaços ou caracteres especiais.
 - Não usar palavras reservadas da linguagem de programação como identificadores (ex: class,int, double, class, public, if, etc).
 
-Para constantes:
+### 🔒 Para constantes:
 Usar todas as letras maiúsculas e separar as palavras com sublinhados (ex: TAXA_DE_DESCONTO, VALOR_MAXIMO).
 
-Sublinhado (_):
+### 🔹 Sublinhado (_):
 Usado no início do nome de variáveis privadas em algumas convenções de codificação (ex: _nomeCliente) para indicar que são membros privados da classe.
+
 
 # 📋 Resumo das Convenções
 | Elemento      | Convenção                                                                 | Exemplo |
@@ -55,7 +63,9 @@ Usado no início do nome de variáveis privadas em algumas convenções de codif
 | `tip` | `statusDaConta` |
 | `anos` | `tempoDaContaEmAnos` |
 
----## Variáveis
+---
+
+## Variáveis
 
 | Antes | Depois |
 |---|---|
