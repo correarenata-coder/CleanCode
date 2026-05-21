@@ -72,7 +72,10 @@ Usado no início do nome de variáveis privadas em algumas convenções de codif
 | `res` | `precoDepoisDoDesconto` |
 | `desc` | `percentualDeDescontoPorFidelidade` |
 
----			
+---		
+## 
+
+---
 
 # ✅ Resultado
 

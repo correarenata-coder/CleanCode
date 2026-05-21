@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="ProjCleanCode/ProjCleanCode.csproj" />
   <Project Path="ProjCleanCode_Ajustado01/ProjCleanCode_Ajustado01.csproj" Id="73a4fad3-72b7-49e0-a804-580c77ffa4c7" />
+  <Project Path="ProjCleanCode_Ajustado02/ProjCleanCode_Ajustado02.csproj" Id="83f665c7-a2dc-4950-a9c9-8bc07b474905" />
+  <Project Path="ProjCleanCode_Ajustado03/ProjCleanCode_Ajustado03.csproj" Id="cef224c5-70e6-47fe-b8ee-cf2ffc583c8c" />
 </Solution>
